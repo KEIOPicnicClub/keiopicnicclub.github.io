@@ -215,6 +215,7 @@ hr {
     text-align: center;
     /*background-attachment: relative;*/
     background-attachment: fixed;
+    position: fixed;
     background-position: center center;
     min-height: 750px;
     width: 100%;
