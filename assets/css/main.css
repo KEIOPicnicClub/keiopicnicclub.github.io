@@ -1,6 +1,6 @@
 body {
     background-color: #f2f2f2;
-    font-family: Lato;
+    font-family: Lato, Helvetica, "Meiryo";
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -8,12 +8,12 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Raleway, Helvetica, "Meiryo", Arial, sans-serif;
+    font-family: Raleway, Helvetica, "Meiryo";
     font-weight: 300;
     color: #333;
 }
 p {
-    font-family: Raleway, Helvetica, "Meiryo", Arial, sans-serif;
+    font-family: Raleway, Helvetica, "Meiryo";
     margin-bottom: 25px;
     font-size: 12px;
 }
@@ -94,7 +94,7 @@ hr {
     width: 200px;
     height: 100%}
 .menu h1.logo a {
-    font-family: Raleway, Helvetica, "Meiryo", Arial, sans-serif;
+    font-family: Raleway, Helvetica, "Meiryo";
     font-size: 16px;
     font-weight: 800;
     letter-spacing: .15em;
