@@ -295,8 +295,8 @@ hr {
     background-attachment: relative;
     /*background-attachment: fixed;*/
     background-position: center center;
-    min-height: 1000px;
-    max-height: 1000px;
+    min-height: 700px; /* map iframeと同じheightを指定する */
+    max-height: 700px; /* map iframeと同じheightを指定する */
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -326,6 +326,23 @@ hr {
 }
 #subwrap1 .spacer {
     margin-top: 220px;
+}
+#mapbg {
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#mapbg h2 {
+  position: relative;
+  margin-top: -400px; /* map iframeのheight変えたらここも調整する */
+  z-index: 999;
 }
 #subwrap2 {
     background: url(../img/sub2-bg.png) no-repeat center top;
@@ -369,23 +386,6 @@ hr {
 #mapwrap {
     margin: 0;
     padding: 0;
-}
-#mapbg {
-  min-height: 500px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-#mapbg h2 {
-  position: relative;
-  margin-top: -500px;
-  z-index: 999;
 }
 
 #serviceswrap {
