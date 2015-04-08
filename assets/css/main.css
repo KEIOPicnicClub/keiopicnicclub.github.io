@@ -219,6 +219,8 @@ hr {
     display: block;
     position: fixed;
     background-size: 100% auto;
+    content: "";
+    z-index: -1;
 
     background-position: center center;
     min-height: 750px;
