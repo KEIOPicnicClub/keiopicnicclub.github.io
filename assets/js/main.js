@@ -13,10 +13,14 @@
 			}
 			else {
 				console.log("not ios");
+				console.log(this);
 					$('#headerwrap').css({backgroundAttachment : 'fixed'});
 					$('#subwrap0').css({backgroundAttachment : 'fixed'});
 					$('#subwrap1').css({backgroundAttachment : 'fixed'});
 					$('#subwrap2').css({backgroundAttachment : 'fixed'});
+					$('#serviceswrap').css({backgroundAttachment : 'fixed'});
+					$('#portwrap').css({backgroundAttachment : 'fixed'});
+					$('#aboutwrap').css({backgroundAttachment : 'fixed'});
 			}
 
 
