@@ -646,6 +646,11 @@ hr {
     font-size: 18px;
     padding-right: 20px;
 }
+/* 日本語薄めにする */
+.cardinfo p {
+    font-size: 10px;
+    color: #999999;
+}
 .grid {
     max-width: 69em;
     list-style: none;
