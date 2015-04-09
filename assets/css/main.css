@@ -345,7 +345,6 @@ hr {
 #mapbg h2 {
   position: relative;
   margin-top: -400px; /* map iframeのheight変えたらここも調整する */
-  z-index: 999;
 }
 #subwrap2 {
     background: url(../img/sub2-bg.png) no-repeat center top;
