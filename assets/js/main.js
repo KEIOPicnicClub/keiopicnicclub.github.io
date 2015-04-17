@@ -13,7 +13,6 @@
 			}
 			else {
 				console.log("not ios");
-				console.log(this);
 					$('#headerwrap').css({backgroundAttachment : 'fixed'});
 					$('#subwrap0').css({backgroundAttachment : 'fixed'});
 					$('#subwrap1').css({backgroundAttachment : 'fixed'});

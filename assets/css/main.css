@@ -212,7 +212,7 @@ hr {
     transition: all .1s ease-in-out;
 }
 #headerwrap {
-    background: url(../img/header-bg1.jpg) no-repeat center top;
+    background: url(../img/home-header.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -252,7 +252,7 @@ hr {
 }
 /* subwrap追加 */
 #subwrap0 {
-    background: url(../img/sub2-bg.png) no-repeat center top;
+    background: url(../img/home-sub.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -391,7 +391,7 @@ hr {
 }
 
 #serviceswrap {
-    background: url(../img/services-bg.jpg) no-repeat center top;
+    background: url(../img/works-header.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -411,13 +411,13 @@ hr {
 }
 #serviceswrap h2 {
     color: #fff;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 400;
     letter-spacing: 2px;
     margin-top: 150px;
 }
 #aboutwrap {
-    background: url(../img/about-bg.jpg) no-repeat center top;
+    background: url(../img/team-header.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
