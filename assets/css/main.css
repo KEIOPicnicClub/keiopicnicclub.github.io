@@ -183,8 +183,8 @@ hr {
     transition: all .3s ease;
 }
 .headerlogo {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   margin-top: 120px;
 }
 .footerlogo {
@@ -241,7 +241,8 @@ hr {
     background-size: cover;
 }
 #headerwrap h1 {
-    margin-top: 130px;
+    /*margin-top: 130px;*/
+    margin-top: 50px;
     color: #fff;
     font-size: 70px;
     font-weight: 700;
