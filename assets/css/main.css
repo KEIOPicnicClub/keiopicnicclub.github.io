@@ -617,12 +617,6 @@ hr {
     display: block;
     max-width: 100%;
 }
-.process li iframe {
-    outline: 0;
-    border: 0;
-    display: block;
-    max-width: 100%;
-}
 .process.effect-2 li.animate {
     -webkit-transform: translateY(200px);
     -moz-transform: translateY(200px);
