@@ -17,6 +17,9 @@ p {
     margin-bottom: 25px;
     font-size: 12px;
 }
+img {
+  max-width: 100%;
+}
 .spacer {
     margin-top: 80px;
 }
