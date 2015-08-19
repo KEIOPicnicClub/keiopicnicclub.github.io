@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset=utf-8 />
+    <title>ROOFTOP PICNIC TOKYO</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+    <style>
+      body { margin:0; padding:0; }
+      #map { position:absolute; top:0; bottom:0; width:100%; }
+      .title {margin: 0 15px 0 15px; font-size: 10pt; font-weight: bold;}
+      .attr {margin: 0 15px 0 15px; font-size: 8pt;}
+      .pict {width: 100%;}
+    </style>
+  </head>
+  <body>
+    <div id='map'></div>
+    <script>
+    L.mapbox.accessToken = 'pk.eyJ1Ijoia2VwYyIsImEiOiJRMDgySDFBIn0.mHm6-fL0FipR7vnzmPNLZg';
+    var map = L.mapbox.map('map', 'mapbox.satellite')
+        .setView([35.65094, 139.68590], 17);
+    var rooftopPicnic = L.mapbox.featureLayer('https://keiopicnicclub.github.io/assets/geojson/rooftop-picnic-tokyo.geojson')
+        .addTo(map);
+
+    rooftopPicnic.on('click', function(e) {
+        if (!e.layer.feature.properties) return;
+        var data = e.layer.feature.properties;
+        console.log(data);
+        var popup = L.popup({offset: [0, -10]})
+            .setLatLng(e.latlng)
+            .setContent('<span class="title">' + data.picid + '</span></br><span class="attr">' + data.name + '</p></br><img class="pict" src="' + data.image + '">')
+            .openOn(map);
+    });
+    </script>
+  </body>
+</html>
